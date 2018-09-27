@@ -1,0 +1,11 @@
+Expa Duty
+
+- Basically handle all of expa duty for us
+- Marking people as contacted, contacting them, etc. 
+
+Since Expa is a website, we have to use a tool that interacts with the client side code that makes expa "work" 
+If we go with python3, we can use Selenium to do the web interactions for us
+We could also use beautifulsoup and pyqt but would be more difficult to do 
+
+1. Figure out what are all the things on expa we have our members do
+2. Come up with a design/plan on how we can use code to do those tasks (e.g. if we need to click a box to mark someone as contacted, then our code should do that for us)
